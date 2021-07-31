@@ -801,7 +801,7 @@ nav.main-menu {
 .search_box{
      width: 100%;
      float: left;
-     background-color: #ffffff;
+     background-color: #454443;
      height: auto;
      padding: 60px 20px;
      top: -125px;
@@ -822,7 +822,7 @@ nav.main-menu {
      width: 90%;
      float: left;
      color: #ffffff;
-     background-color: #69c934;
+     background-color: #cf980e;
      font-size: 14pt;
      border: 0px;
      height: 55px;

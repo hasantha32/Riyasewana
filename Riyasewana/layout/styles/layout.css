@@ -301,3 +301,119 @@ table a, #comments a{background-color:inherit;}
 	.font-x2{font-size:1.6rem;}
 	.font-x3{font-size:1.8rem;}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Content */
+.container .content{}
+
+.sectiontitle{display:block; max-width:55%; margin:0 auto 80px; text-align:center;}
+.sectiontitle .heading{margin:0; padding:0; line-height:1;}
+
+#introblocks{}
+#introblocks ul{text-align:center;}
+#introblocks ul li{}
+#introblocks ul li article{}
+#introblocks ul li article i{margin-bottom:30px; font-size:42px}
+#introblocks ul li article .heading{}
+#introblocks ul li article p{}
+#introblocks ul li article footer{margin-top:30px;}
+
+/* Comments */
+#comments ul{margin:0 0 40px 0; padding:0; list-style:none;}
+#comments li{margin:0 0 10px 0; padding:15px;}
+#comments .avatar{float:right; margin:0 0 10px 10px; padding:3px; border:1px solid;}
+#comments address{font-weight:bold;}
+#comments time{font-size:smaller;}
+#comments .comcont{display:block; margin:0; padding:0;}
+#comments .comcont p{margin:10px 5px 10px 0; padding:0;}
+
+#comments form{display:block; width:100%;}
+#comments input, #comments textarea{width:100%; padding:10px; border:1px solid;}
+#comments textarea{overflow:auto;}
+#comments div{margin-bottom:15px;}
+#comments input[type="submit"], #comments input[type="reset"]{display:inline-block; width:auto; min-width:150px; margin:0; padding:8px 5px; cursor:pointer;}
+
+/* Sidebar */
+.container .sidebar{}
+
+.sidebar .sdb_holder{margin-bottom:50px;}
+.sidebar .sdb_holder:last-child{margin-bottom:0;}
+
+
+/* References
+--------------------------------------------------------------------------------------------------------------- */
+#references{}
+
+#references .ref-sort{display:block; margin-bottom:50px; text-align:center;}
+#references .ref-sort ul{margin:0; padding:0; list-style:none; text-transform:uppercase;}
+#references .ref-sort li{display:inline-block; position:relative; margin:0 10px 0 0; padding:0 20px 0 0;}
+#references .ref-sort li::after{position:absolute; top:0; right:0; content:"/";}
+#references .ref-sort li:last-child{margin:0; padding:0;}
+#references .ref-sort li:last-child::after{display:none;}
+#references .ref-sort li a{}
+
+#references .ref-img{margin-bottom:80px;}
+#references .ref-img li{margin-bottom:30px;}
+#references .ref-img li:nth-last-child(-n+3){margin-bottom:0;}/* Removes bottom margin from the last three items - margin is restored in the media queries when items stack */
+#references .ref-img li:nth-child(3n+1){margin-left:0; clear:left;}/* Removes the need to add class="first" */
+
+
+
+/* Rows */
+.row0, .row0 a{}
+.row1, .row1 a{}
+.row2{color:#474747; background-color:#F4F4F4;}
+.row3{color:#474747; background-color:#FFFFFF;}
+.row4{color:#C1C2C4; background-color:#323639;}
+.row5, .row5 a{color:#C1C2C4; background-color:#2A2D34;}
+
+
+/* Header */
+#header{border-color:rgba(255,255,255,.2);}
+#header #logo h1 a{color:inherit;}
+
+
+/* Page Intro */
+#pageintro{color:#FFFFFF;}
+#pageintro footer input{color:#FFFFFF; background-color:rgba(255,255,255,.5);}
+#pageintro footer button{color:#474747; background-color:#DBE5E7;}
+
+
+/* References */
+#references .ref-sort li a{color:inherit;}
+#references .ref-sort li a:hover, #references .ref-sort li.current a{color:#829DA2;}
+
+

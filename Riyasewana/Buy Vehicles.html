@@ -14,7 +14,7 @@
 		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet" />
 
 		<!-- TITLE OF SITE -->
-		<title>Riyasewana</title>
+		<title>Riyasewana || Buy Vehicles</title>
 
 		<!-- favicon img -->
 		<link rel="shortcut icon" type="image/icon" href="assets/logo/favicon.png"/>
@@ -50,7 +50,17 @@
 		<!--responsive.css-->
 		<link rel="stylesheet" href="assets/css/responsive.css" />
 
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 
+		<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+
+
+
+  <!-- fevicon -->
   <link rel="icon" href="images/fevicon.png" type="image/gif" />
   <!-- bootstrap css -->
   <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -67,24 +77,46 @@
 <!--[if lt IE 9]>
 <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
 <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
-		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 
-		<!--[if lt IE 9]>
-		<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-		<![endif]-->
+
+
 
 	</head>
 
 	<body>
-		  <!-- loader  -->
-  <div class="loader_bg">
-    <div class="loader"><img src="images/loading.gif" alt="#" /></div>
-  </div>
-  <!-- end loader -->
-  <!-- header -->
-  <header>
+		<!--[if lte IE 9]>
+		<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade
+			your browser</a> to improve your experience and security.</p>
+		<![endif]-->
+
+		<!-- main-menu Start -->
+		<header class="top-area">
+			<div class="header-area">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-2">
+							<div class="logo">
+								<a href="index.html">
+								
+								</a>
+							</div><!-- /.logo-->
+						</div><!-- /.col-->
+	
+					</div><!-- /.row -->
+					<div class="home-border"></div><!-- /.home-border-->
+				</div><!-- /.container-->
+			</div><!-- /.header-area -->
+
+		</header><!-- /.top-area-->
+		<!-- main-menu End -->
+
+		
+
+
+
+
+
+<header>
     <!-- header inner -->
     <div class="header-top">
       <div class="header">
@@ -237,9 +269,6 @@
 
 
 
-
-
-////////
 		<!--travel-box start-->
 		<section  class="travel-box">
         	<div class="container">
@@ -248,7 +277,19 @@
         				<div class="single-travel-boxes">
         					<div id="desc-tabs" class="desc-tabs">
 
+								<ul class="nav nav-tabs" role="tablist">
 
+
+
+									<li role="presentation">
+										<a href="#hotels" aria-controls="hotels" role="tab" data-toggle="tab">
+											<i class="fas fa-car"></i>
+											Cars For Sale in Sri Lanka
+										</a>
+									</li>
+
+									
+								</ul>
 
 								<!-- Tab panes -->
 								<div class="tab-content">
@@ -260,12 +301,95 @@
 												<div class="col-lg-4 col-md-4 col-sm-12">
 													<div class="single-tab-select-box">
 
-														<h2>destination</h2>
+														<h2>Vehicle </h2>
 
 														<div class="travel-select-icon">
 															<select class="form-control ">
 
-															  	<option value="default">enter your destination country</option><!-- /.option-->
+															  	<option value="default">BMW</option><!-- /.option-->
+
+															  	<option value="turkey">Bajaj</option><!-- /.option-->
+
+															  	<option value="russia">Volvo</option><!-- /.option-->
+															  	<option value="egept">Benz</option><!-- /.option-->
+
+															</select><!-- /.select-->
+														</div><!-- /.travel-select-icon -->
+
+													
+
+
+
+
+
+
+
+
+
+
+													</div><!--/.single-tab-select-box-->
+												</div><!--/.col-->
+
+												<div class="col-lg-2 col-md-3 col-sm-4">
+													<div class="single-tab-select-box">
+														<h2>Select model</h2>
+														
+														<div class="travel-select-icon">
+															<select class="form-control ">
+
+															  	<option value="default">Model</option><!-- /.option-->
+
+															  	<option value="turkey">Prius</option><!-- /.option-->
+
+															  	<option value="russia">Allion</option><!-- /.option-->
+															  	<option value="egept">Hybrid</option><!-- /.option-->
+
+															</select><!-- /.select-->
+														</div>
+													</div><!--/.single-tab-select-box-->
+													<div class="single-tab-select-box">
+														<h2>City</h2>
+														
+														<div class="travel-select-icon">
+															<select class="form-control ">
+
+															  	<option value="default">Kandy</option><!-- /.option-->
+
+															  	<option value="2">Colombo</option><!-- /.option-->
+
+															  	<option value="4">Battaramulla</option><!-- /.option-->
+															  	<option value="8">Badulla</option><!-- /.option-->
+															  	<option value="default">Galle</option><!-- /.option-->
+
+															  	<option value="2">Bandarawela</option><!-- /.option-->
+
+															  	<option value="4">Anuradhapura</option><!-- /.option-->
+															  	<option value="8">Kakirawa</option><!-- /.option-->
+
+															</select><!-- /.select-->
+														</div>
+													</div>
+
+
+
+
+
+
+
+
+
+
+
+												</div><!--/.col-->
+
+												<div class="col-lg-2 col-md-3 col-sm-4">
+													<div class="single-tab-select-box">
+														<h2>Select type</h2>
+														
+														<div class="travel-select-icon">
+															<select class="form-control ">
+
+															  	<option value="default">car</option><!-- /.option-->
 
 															  	<option value="turkey">turkey</option><!-- /.option-->
 
@@ -273,79 +397,97 @@
 															  	<option value="egept">egypt</option><!-- /.option-->
 
 															</select><!-- /.select-->
-														</div><!-- /.travel-select-icon -->
-
-														<div class="travel-select-icon">
-															<select class="form-control ">
-
-															  	<option value="default">enter your destination location</option><!-- /.option-->
-
-															  	<option value="istambul">istambul</option><!-- /.option-->
-
-															  	<option value="mosko">mosko</option><!-- /.option-->
-															  	<option value="cairo">cairo</option><!-- /.option-->
-
-															</select><!-- /.select-->
-														</div><!-- /.travel-select-icon -->
-
-													</div><!--/.single-tab-select-box-->
-												</div><!--/.col-->
-
-												<div class="col-lg-2 col-md-3 col-sm-4">
-													<div class="single-tab-select-box">
-														<h2>check in</h2>
-														<div class="travel-check-icon">
-															<form action="#">
-																<input type="text" name="check_in" class="form-control" data-toggle="datepicker" placeholder="12 -01 - 2017 ">
-															</form>
-														</div><!-- /.travel-check-icon -->
-													</div><!--/.single-tab-select-box-->
-												</div><!--/.col-->
-
-												<div class="col-lg-2 col-md-3 col-sm-4">
-													<div class="single-tab-select-box">
-														<h2>check out</h2>
-														<div class="travel-check-icon">
-															<form action="#">
-																<input type="text" name="check_out" class="form-control"  data-toggle="datepicker" placeholder="22 -01 - 2017 ">
-															</form>
-														</div><!-- /.travel-check-icon -->
+														</div>
 													</div><!--/.single-tab-select-box-->
 												</div><!--/.col-->
 
 												<div class="col-lg-2 col-md-1 col-sm-4">
 													<div class="single-tab-select-box">
-														<h2>duration</h2>
+														<h2>Accessories</h2>
 														<div class="travel-select-icon">
 															<select class="form-control ">
 
-															  	<option value="default">5</option><!-- /.option-->
+															  	<option value="default">Any Condition</option><!-- /.option-->
 
-															  	<option value="10">10</option><!-- /.option-->
+															  	<option value="10">Antique</option><!-- /.option-->
 
-															  	<option value="15">15</option><!-- /.option-->
-															  	<option value="20">20</option><!-- /.option-->
+															  	<option value="15">Brand New</option><!-- /.option-->
+															  	<option value="20">Registered</option><!-- /.option-->
+															  	<option value="25">Unregistered</option><!-- /.option-->
+
 
 															</select><!-- /.select-->
+
+																<div class="travel-select-icon">
+															<select class="form-control ">
+
+															  	<option value="default">Any Fuel</option><!-- /.option-->
+
+															  	<option value="istambul">Petrol</option><!-- /.option-->
+
+															  	<option value="mosko">Diesel</option><!-- /.option-->
+															  	<option value="cairo">Electric</option><!-- /.option-->
+															  	<option value="mosko">Hybrid</option><!-- /.option-->
+															  	<option value="cairo">Electric</option><!-- /.option-->
+															  	<option value="cairo">Gas</option><!-- /.option-->
+															</select><!-- /.select-->
+														</div><!-- /.travel-select-icon -->
+	<div class="travel-select-icon">
+															<select class="form-control ">
+
+															  	<option value="default">Any Gear</option><!-- /.option-->
+
+															  	<option value="istambul">Auto</option><!-- /.option-->
+
+															  	<option value="mosko">Manual</option><!-- /.option-->
+															  
+
+															</select><!-- /.select-->
+														</div><!-- /.travel-select-icon -->
+
 														</div><!-- /.travel-select-icon -->
 													</div><!--/.single-tab-select-box-->
 												</div><!--/.col-->
 
 												<div class="col-lg-2 col-md-1 col-sm-4">
 													<div class="single-tab-select-box">
-														<h2>members</h2>
+														<h2>Year Range</h2>
 														<div class="travel-select-icon">
 															<select class="form-control ">
 
-															  	<option value="default">1</option><!-- /.option-->
+															  	<option value="default">Year Min</option><!-- /.option-->
 
-															  	<option value="2">2</option><!-- /.option-->
+															  	<option value="2">2021</option><!-- /.option-->
 
-															  	<option value="4">4</option><!-- /.option-->
-															  	<option value="8">8</option><!-- /.option-->
+															  	<option value="4">2020</option><!-- /.option-->
+															  	<option value="8">2019</option><!-- /.option-->
+															  	<option value="default">2018</option><!-- /.option-->
+
+															  	<option value="2">2017</option><!-- /.option-->
+
+															  	<option value="4">2016</option><!-- /.option-->
+															  	<option value="8">2015</option><!-- /.option-->
 
 															</select><!-- /.select-->
 														</div><!-- /.travel-select-icon -->
+														<div class="travel-select-icon">
+															<select class="form-control ">
+
+															  	<option value="default">Year Max</option><!-- /.option-->
+
+															  		<option value="2">2021</option><!-- /.option-->
+
+															  	<option value="4">2020</option><!-- /.option-->
+															  	<option value="8">2019</option><!-- /.option-->
+															  	<option value="default">2018</option><!-- /.option-->
+
+															  	<option value="2">2017</option><!-- /.option-->
+
+															  	<option value="4">2016</option><!-- /.option-->
+															  	<option value="8">2015</option><!-- /.option-->
+
+															</select><!-- /.select-->
+														</div>
 													</div><!--/.single-tab-select-box-->
 												</div><!--/.col-->
 
@@ -356,7 +498,7 @@
 													<div class="travel-budget">
 														<div class="row">
 															<div class="col-md-3 col-sm-4">
-																<h3>budget : </h3>
+																<h3>Cost Filter </h3>
 															</div><!--/.col-->
 															<div class="co-md-9 col-sm-8">
 																<div class="travel-filter">
@@ -384,6 +526,12 @@
 												</div><!--/.col-->
 
 											</div><!--/.row-->
+
+
+
+
+
+
 
 										</div><!--/.tab-para-->
 
@@ -668,17 +816,77 @@
         </section><!--/.travel-box-->
 		<!--travel-box end-->
 
-      
+        <!--service start-->
+		<section id="service" class="service">
+			<div class="container">
+
+				<div class="service-counter text-center">
+
+					<div class="col-md-4 col-sm-4">
+						<div class="single-service-box">
+							<div class="service-img">
+								<img src="assets/images/service/s1.png" alt="service-icon" />
+							</div><!--/.service-img-->
+							<div class="service-content">
+								<h2>
+									<a href="#">
+									Branded Vehicles
+									</a>
+								</h2>
+								<p>Most Users Connect with us .We provide good oppotunity to you..</p>
+							</div><!--/.service-content-->
+						</div><!--/.single-service-box-->
+					</div><!--/.col-->
+
+					<div class="col-md-4 col-sm-4">
+						<div class="single-service-box">
+							<div class="service-img">
+								<img src="assets/images/service/s2.png" alt="service-icon" />
+							</div><!--/.service-img-->
+							<div class="service-content">
+								<h2>
+									<a href="#">
+										All vehicle Types
+									</a>
+								</h2>
+								<p>Very large user reviews on this website</p>
+							</div><!--/.service-content-->
+						</div><!--/.single-service-box-->
+					</div><!--/.col-->
+	<div class="col-md-4 col-sm-4">
+						<div class="single-service-box">
+							<div class="service-img">
+								<img src="assets/images/service/s1.png" alt="service-icon" />
+							</div><!--/.service-img-->
+							<div class="service-content">
+								<h2>
+									<a href="#">
+									1000+ vehicles
+									</a>
+								</h2>
+								<p>Every hour sellers visite this web site and post thair adds.</p>
+							</div><!--/.service-content-->
+						</div><!--/.single-service-box-->
+					</div><!--/.col-->
+
+					
+			</div><!--/.container-->
+
+		</section><!--/.service-->
+		<!--service end-->
+
+	
+
 
 		<!--packages start-->
 		<section id="pack" class="packages">
 			<div class="container">
 				<div class="gallary-header text-center">
 					<h2>
-						special packages
+						
 					</h2>
 					<p>
-						Duis aute irure dolor in  velit esse cillum dolore eu fugiat nulla.  
+						  
 					</p>
 				</div><!--/.gallery-header-->
 				<div class="packages-content">
@@ -688,34 +896,31 @@
 							<div class="single-package-item">
 								<img src="assets/images/packages/p1.jpg" alt="package-place">
 								<div class="single-package-item-txt">
-									<h3>italy <span class="pull-right">$499</span></h3>
+									<h3>Hyundai Accent 2002 Car <span class="pull-right"></span></h3>
 									<div class="packages-para">
 										<p>
 											<span>
-												<i class="fa fa-angle-right"></i> 5 daays 6 nights
+												<i class="fa fa-angle-right"></i>Kaduwela
 											</span>
-											<i class="fa fa-angle-right"></i>  5 star accomodation
+											<i class="fa fa-angle-right"></i> 289997 (km)
+
 										</p>
 										<p>
 											<span>
-												<i class="fa fa-angle-right"></i>  transportation
+												<i class="fa fa-angle-right"></i>  Rs. 7,595,000
 											</span>
-											<i class="fa fa-angle-right"></i>  food facilities
+											<i class="fa fa-angle-right"></i>2021-08-01
 										 </p>
 									</div><!--/.packages-para-->
 									<div class="packages-review">
 										<p>
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-											<span>2544 review</span>
+										
+											<span></span>
 										</p>
 									</div><!--/.packages-review-->
 									<div class="about-btn">
 										<button  class="about-view packages-btn">
-											book now
+											Buy Now
 										</button>
 									</div><!--/.about-btn-->
 								</div><!--/.single-package-item-txt-->
@@ -727,34 +932,35 @@
 							<div class="single-package-item">
 								<img src="assets/images/packages/p2.jpg" alt="package-place">
 								<div class="single-package-item-txt">
-									<h3>england <span class="pull-right">$1499</span></h3>
+									<h3>Suzuki Wagon R Stingray 2018  <span class="pull-right"></span></h3>
 									<div class="packages-para">
 										<p>
 											<span>
-												<i class="fa fa-angle-right"></i> 5 daays 6 nights
+												<i class="fa fa-angle-right"></i>Chilaw
 											</span>
-											<i class="fa fa-angle-right"></i>  5 star accomodation
+							
+											<i class="fa fa-angle-right"></i>39000 (km)
+
 										</p>
 										<p>
 											<span>
-												<i class="fa fa-angle-right"></i>  transportation
+												<i class="fa fa-angle-right"></i> Rs. 3,595,000
 											</span>
-											<i class="fa fa-angle-right"></i>  food facilities
+											<i class="fa fa-angle-right"></i> 2021-08-01 
+											<span>
+												<i class="fa fa-angle-right"></i> (Negotiable)
+											</span>
 										 </p>
 									</div><!--/.packages-para-->
 									<div class="packages-review">
 										<p>
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-											<span>2544 review</span>
+										
+											<span></span>
 										</p>
 									</div><!--/.packages-review-->
 									<div class="about-btn">
 										<button  class="about-view packages-btn">
-											book now
+											Buy Now
 										</button>
 									</div><!--/.about-btn-->
 								</div><!--/.single-package-item-txt-->
@@ -766,34 +972,37 @@
 							<div class="single-package-item">
 								<img src="assets/images/packages/p3.jpg" alt="package-place">
 								<div class="single-package-item-txt">
-									<h3>france <span class="pull-right">$1199</span></h3>
+									<h3>Hyundai Accent 2000 Car <span class="pull-right"></span></h3>
 									<div class="packages-para">
 										<p>
 											<span>
-												<i class="fa fa-angle-right"></i> 5 daays 6 nights
+												<i class="fa fa-angle-right"></i>Matara
 											</span>
-											<i class="fa fa-angle-right"></i>  5 star accomodation
+											<i class="fa fa-angle-right"></i> 97000 (km)
+
+
+
+
 										</p>
 										<p>
 											<span>
-												<i class="fa fa-angle-right"></i>  transportation
+												<i class="fa fa-angle-right"></i>  Rs. 3,245,000
 											</span>
-											<i class="fa fa-angle-right"></i>  food facilities
+											<i class="fa fa-angle-right"></i> 2021-08-01
+											<span>
+												<i class="fa fa-angle-right"></i> (Negotiable)
+											</span>
 										 </p>
 									</div><!--/.packages-para-->
 									<div class="packages-review">
 										<p>
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-											<span>2544 review</span>
+										
+											<span></span>
 										</p>
 									</div><!--/.packages-review-->
 									<div class="about-btn">
 										<button  class="about-view packages-btn">
-											book now
+											Buy Now
 										</button>
 									</div><!--/.about-btn-->
 								</div><!--/.single-package-item-txt-->
@@ -801,38 +1010,40 @@
 
 						</div><!--/.col-->
 						
+
+
+
+
+
 						<div class="col-md-4 col-sm-6">
 							<div class="single-package-item">
 								<img src="assets/images/packages/p4.jpg" alt="package-place">
 								<div class="single-package-item-txt">
-									<h3>india <span class="pull-right">$799</span></h3>
+									<h3>Toyota Prius 2011 Car <span class="pull-right"></span></h3>
 									<div class="packages-para">
 										<p>
 											<span>
-												<i class="fa fa-angle-right"></i> 5 daays 6 nights
+												<i class="fa fa-angle-right"></i>Kadawatha
 											</span>
-											<i class="fa fa-angle-right"></i>  5 star accomodation
+											<i class="fa fa-angle-right"></i> 83000 (km)
+
 										</p>
 										<p>
 											<span>
-												<i class="fa fa-angle-right"></i>  transportation
+												<i class="fa fa-angle-right"></i>  Rs. 4,750,000
 											</span>
-											<i class="fa fa-angle-right"></i>  food facilities
+											<i class="fa fa-angle-right"></i>2021-08-01
 										 </p>
 									</div><!--/.packages-para-->
 									<div class="packages-review">
 										<p>
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-											<span>2544 review</span>
+										
+											<span></span>
 										</p>
 									</div><!--/.packages-review-->
 									<div class="about-btn">
 										<button  class="about-view packages-btn">
-											book now
+											Buy Now
 										</button>
 									</div><!--/.about-btn-->
 								</div><!--/.single-package-item-txt-->
@@ -840,38 +1051,39 @@
 
 						</div><!--/.col-->
 						
+
+
+
+
 						<div class="col-md-4 col-sm-6">
 							<div class="single-package-item">
 								<img src="assets/images/packages/p5.jpg" alt="package-place">
 								<div class="single-package-item-txt">
-									<h3>spain <span class="pull-right">$999</span></h3>
+									<h3>Suzuki Jeep 2015 Car <span class="pull-right"></span></h3>
 									<div class="packages-para">
 										<p>
 											<span>
-												<i class="fa fa-angle-right"></i> 5 daays 6 nights
+												<i class="fa fa-angle-right"></i>Kottawa
 											</span>
-											<i class="fa fa-angle-right"></i>  5 star accomodation
+											<i class="fa fa-angle-right"></i> 289997 (km)
+
 										</p>
 										<p>
 											<span>
-												<i class="fa fa-angle-right"></i>  transportation
+												<i class="fa fa-angle-right"></i> Rs. 4,150,000
 											</span>
-											<i class="fa fa-angle-right"></i>  food facilities
+											<i class="fa fa-angle-right"></i> 2021-08-01
 										 </p>
 									</div><!--/.packages-para-->
 									<div class="packages-review">
 										<p>
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-											<span>2544 review</span>
+										
+											<span></span>
 										</p>
 									</div><!--/.packages-review-->
 									<div class="about-btn">
 										<button  class="about-view packages-btn">
-											book now
+											Buy Now
 										</button>
 									</div><!--/.about-btn-->
 								</div><!--/.single-package-item-txt-->
@@ -879,38 +1091,40 @@
 
 						</div><!--/.col-->
 						
+
+
+
+
 						<div class="col-md-4 col-sm-6">
 							<div class="single-package-item">
 								<img src="assets/images/packages/p6.jpg" alt="package-place">
 								<div class="single-package-item-txt">
-									<h3>thailand <span class="pull-right">$799</span></h3>
+									<h3>Nissan Cj1 1999 Car <span class="pull-right"></span></h3>
 									<div class="packages-para">
 										<p>
 											<span>
-												<i class="fa fa-angle-right"></i> 5 daays 6 nights
+												<i class="fa fa-angle-right"></i>Kurunegala
 											</span>
-											<i class="fa fa-angle-right"></i>  5 star accomodation
+											<i class="fa fa-angle-right"></i> 160000 (km)
+
+
 										</p>
 										<p>
 											<span>
-												<i class="fa fa-angle-right"></i>  transportation
+												<i class="fa fa-angle-right"></i> Rs. 2,260,000
 											</span>
-											<i class="fa fa-angle-right"></i>  food facilities
+											<i class="fa fa-angle-right"></i> 2021-08-01
 										 </p>
 									</div><!--/.packages-para-->
 									<div class="packages-review">
 										<p>
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-											<span>2544 review</span>
+										
+											<span></span>
 										</p>
 									</div><!--/.packages-review-->
 									<div class="about-btn">
 										<button  class="about-view packages-btn">
-											book now
+											Buy Now
 										</button>
 									</div><!--/.about-btn-->
 								</div><!--/.single-package-item-txt-->
@@ -918,6 +1132,30 @@
 
 						</div><!--/.col-->
 
+											<button  class="about-view packages-btn">
+											1
+										</button>
+											<button  class="about-view packages-btn">
+											2
+										</button>	<button  class="about-view packages-btn">
+											3
+										</button>	<button  class="about-view packages-btn">
+											4
+										</button>	<button  class="about-view packages-btn">
+											5
+										</button>	<button  class="about-view packages-btn">
+											6
+										</button>	<button  class="about-view packages-btn">
+											7
+										</button>	<button  class="about-view packages-btn">
+											8
+										</button>
+									
+										<button  class="about-view packages-btn">
+											..
+										</button>	<button  class="about-view packages-btn">
+											144
+										</button>
 					</div><!--/.row-->
 				</div><!--/.packages-content-->
 			</div><!--/.container-->
@@ -925,415 +1163,14 @@
 		</section><!--/.packages-->
 		<!--packages end-->
 
-		<!-- testemonial Start -->
-		<section   class="testemonial">
-			<div class="container">
-
-				<div class="gallary-header text-center">
-					<h2>
-						clients reviews
-					</h2>
-					<p>
-						Duis aute irure dolor in  velit esse cillum dolore eu fugiat nulla. 
-					</p>
-
-				</div><!--/.gallery-header-->
-
-				<div class="owl-carousel owl-theme" id="testemonial-carousel">
-
-					<div class="home1-testm item">
-						<div class="home1-testm-single text-center">
-							<div class="home1-testm-img">
-								<img src="assets/images/client/testimonial1.jpg" alt="img"/>
-							</div><!--/.home1-testm-img-->
-							<div class="home1-testm-txt">
-								<span class="icon section-icon">
-									<i class="fa fa-quote-left" aria-hidden="true"></i>
-								</span>
-								<p>
-									Lorem ipsum dolor sit amet, contur adip elit, sed do mod incid ut labore et dolore magna aliqua. Ut enim ad minim veniam. 
-								</p>
-								<h3>
-									<a href="#">
-										kevin watson
-									</a>
-								</h3>
-								<h4>london, england</h4>
-							</div><!--/.home1-testm-txt-->	
-						</div><!--/.home1-testm-single-->
-
-					</div><!--/.item-->
-
-					<div class="home1-testm item">
-						<div class="home1-testm-single text-center">
-							<div class="home1-testm-img">
-								<img src="assets/images/client/testimonial2.jpg" alt="img"/>
-							</div><!--/.home1-testm-img-->
-							<div class="home1-testm-txt">
-								<span class="icon section-icon">
-									<i class="fa fa-quote-left" aria-hidden="true"></i>
-								</span>
-								<p>
-									Lorem ipsum dolor sit amet, contur adip elit, sed do mod incid ut labore et dolore magna aliqua. Ut enim ad minim veniam. 
-								</p>
-								<h3>
-									<a href="#">
-										kevin watson
-									</a>
-								</h3>
-								<h4>london, england</h4>
-							</div><!--/.home1-testm-txt-->	
-						</div><!--/.home1-testm-single-->
-
-					</div><!--/.item-->
-
-					<div class="home1-testm item">
-						<div class="home1-testm-single text-center">
-							<div class="home1-testm-img">
-								<img src="assets/images/client/testimonial1.jpg" alt="img"/>
-							</div><!--/.home1-testm-img-->
-							<div class="home1-testm-txt">
-								<span class="icon section-icon">
-									<i class="fa fa-quote-left" aria-hidden="true"></i>
-								</span>
-								<p>
-									Lorem ipsum dolor sit amet, contur adip elit, sed do mod incid ut labore et dolore magna aliqua. Ut enim ad minim veniam. 
-								</p>
-								<h3>
-									<a href="#">
-										kevin watson
-									</a>
-								</h3>
-								<h4>london, england</h4>
-							</div><!--/.home1-testm-txt-->	
-						</div><!--/.home1-testm-single-->
-
-					</div><!--/.item-->
-
-					<div class="home1-testm item">
-						<div class="home1-testm-single text-center">
-							<div class="home1-testm-img">
-								<img src="assets/images/client/testimonial1.jpg" alt="img"/>
-							</div><!--/.home1-testm-img-->
-							<div class="home1-testm-txt">
-								<span class="icon section-icon">
-									<i class="fa fa-quote-left" aria-hidden="true"></i>
-								</span>
-								<p>
-									Lorem ipsum dolor sit amet, contur adip elit, sed do mod incid ut labore et dolore magna aliqua. Ut enim ad minim veniam. 
-								</p>
-								<h3>
-									<a href="#">
-										kevin watson
-									</a>
-								</h3>
-								<h4>london, england</h4>
-							</div><!--/.home1-testm-txt-->	
-						</div><!--/.home1-testm-single-->
-
-					</div><!--/.item-->
-
-					<div class="home1-testm item">
-						<div class="home1-testm-single text-center">
-							<div class="home1-testm-img">
-								<img src="assets/images/client/testimonial2.jpg" alt="img"/>
-							</div><!--/.home1-testm-img-->
-							<div class="home1-testm-txt">
-								<span class="icon section-icon">
-									<i class="fa fa-quote-left" aria-hidden="true"></i>
-								</span>
-								<p>
-									Lorem ipsum dolor sit amet, contur adip elit, sed do mod incid ut labore et dolore magna aliqua. Ut enim ad minim veniam. 
-								</p>
-								<h3>
-									<a href="#">
-										kevin watson
-									</a>
-								</h3>
-								<h4>london, england</h4>
-							</div><!--/.home1-testm-txt-->	
-						</div><!--/.home1-testm-single-->
-
-					</div><!--/.item-->
-
-					<div class="home1-testm item">
-						<div class="home1-testm-single text-center">
-							<div class="home1-testm-img">
-								<img src="assets/images/client/testimonial1.jpg" alt="img"/>
-							</div><!--/.home1-testm-img-->
-							<div class="home1-testm-txt">
-								<span class="icon section-icon">
-									<i class="fa fa-quote-left" aria-hidden="true"></i>
-								</span>
-								<p>
-									Lorem ipsum dolor sit amet, contur adip elit, sed do mod incid ut labore et dolore magna aliqua. Ut enim ad minim veniam. 
-								</p>
-								<h3>
-									<a href="#">
-										kevin watson
-									</a>
-								</h3>
-								<h4>london, england</h4>
-							</div><!--/.home1-testm-txt-->	
-						</div><!--/.home1-testm-single-->
-
-					</div><!--/.item-->
-
-					<div class="home1-testm item">
-						<div class="home1-testm-single text-center">
-							<div class="home1-testm-img">
-								<img src="assets/images/client/testimonial1.jpg" alt="img"/>
-							</div><!--/.home1-testm-img-->
-							<div class="home1-testm-txt">
-								<span class="icon section-icon">
-									<i class="fa fa-quote-left" aria-hidden="true"></i>
-								</span>
-								<p>
-									Lorem ipsum dolor sit amet, contur adip elit, sed do mod incid ut labore et dolore magna aliqua. Ut enim ad minim veniam. 
-								</p>
-								<h3>
-									<a href="#">
-										kevin watson
-									</a>
-								</h3>
-								<h4>london, england</h4>
-							</div><!--/.home1-testm-txt-->	
-						</div><!--/.home1-testm-single-->
-
-					</div><!--/.item-->
-
-					<div class="home1-testm item">
-						<div class="home1-testm-single text-center">
-							<div class="home1-testm-img">
-								<img src="assets/images/client/testimonial2.jpg" alt="img"/>
-							</div><!--/.home1-testm-img-->
-							<div class="home1-testm-txt">
-								<span class="icon section-icon">
-									<i class="fa fa-quote-left" aria-hidden="true"></i>
-								</span>
-								<p>
-									Lorem ipsum dolor sit amet, contur adip elit, sed do mod incid ut labore et dolore magna aliqua. Ut enim ad minim veniam. 
-								</p>
-								<h3>
-									<a href="#">
-										kevin watson
-									</a>
-								</h3>
-								<h4>london, england</h4>
-							</div><!--/.home1-testm-txt-->	
-						</div><!--/.home1-testm-single-->
-
-					</div><!--/.item-->
-
-					<div class="home1-testm item">
-						<div class="home1-testm-single text-center">
-							<div class="home1-testm-img">
-								<img src="assets/images/client/testimonial1.jpg" alt="img"/>
-							</div><!--/.home1-testm-img-->
-							<div class="home1-testm-txt">
-								<span class="icon section-icon">
-									<i class="fa fa-quote-left" aria-hidden="true"></i>
-								</span>
-								<p>
-									Lorem ipsum dolor sit amet, contur adip elit, sed do mod incid ut labore et dolore magna aliqua. Ut enim ad minim veniam. 
-								</p>
-								<h3>
-									<a href="#">
-										kevin watson
-									</a>
-								</h3>
-								<h4>london, england</h4>
-							</div><!--/.home1-testm-txt-->	
-						</div><!--/.home1-testm-single-->
-
-					</div><!--/.item-->
-
-				</div><!--/.testemonial-carousel-->
-			</div><!--/.container-->
-
-		</section><!--/.testimonial-->	
-		<!-- testemonial End -->
-
-
-		<!--special-offer start-->
-		<section id="spo" class="special-offer">
-			<div class="container">
-				<div class="special-offer-content">
-					<div class="row">
-						<div class="col-sm-8">
-							<div class="single-special-offer">
-								<div class="single-special-offer-txt">
-									<h2>thiland</h2>
-									<div class="packages-review special-offer-review">
-										<p>
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-											<span>2544 review</span>
-										</p>
-									</div><!--/.packages-review-->
-									<div class="packages-para special-offer-para">
-										<p>
-											<span>
-												<i class="fa fa-angle-right"></i> 5 daays 6 nights
-											</span>
-											<span>
-												<i class="fa fa-angle-right"></i> 2 person
-											</span>
-											<span>
-												<i class="fa fa-angle-right"></i>  5 star accomodation
-											</span>
-										</p>
-										<p>
-											<span>
-												<i class="fa fa-angle-right"></i>  transportation
-											</span>
-											<span>
-												<i class="fa fa-angle-right"></i>  food facilities
-											</span>  
-										</p>
-										<p class="offer-para">
-											Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tem ut labore et dolore magna  aliqua. Ut enim ad minim veniam, quis nostrud exercitation una <br> ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-										</p>
-									</div><!--/.packages-para-->
-									<div class="offer-btn-group">
-										<div class="about-btn">
-											<button  class="about-view packages-btn offfer-btn">
-												make tour
-											</button>
-										</div><!--/.about-btn-->
-										<div class="about-btn">
-											<button  class="about-view packages-btn">
-												book now
-											</button>
-										</div><!--/.about-btn-->
-									</div><!--/.offer-btn-group-->
-								</div><!--/.single-special-offer-txt-->
-							</div><!--/.single-special-offer-->
-						</div><!--/.col-->
-						<div class="col-sm-4">
-							<div class="single-special-offer">
-								<div class="single-special-offer-bg">
-									<img src="assets/images/offer/offer-shape.png" alt="offer-shape">
-								</div><!--/.single-special-offer-bg-->
-								<div class="single-special-shape-txt">
-									<h3>special offer</h3>
-									<h4><span>40%</span><br>off</h4>
-									<p><span>$999</span><br>reguler $ 1450</p>
-								</div><!--/.single-special-shape-txt-->
-							</div><!--/.single-special-offer-->
-						</div><!--/.col-->
-					</div><!--/.row-->
-				</div><!--/.special-offer-content-->
-			</div><!--/.container-->
-
-		</section><!--/.special-offer end-->
-		<!--special-offer end-->
-
-		<!--blog start-->
-		<section id="blog" class="blog">
-			<div class="container">
-				<div class="blog-details">
-						<div class="gallary-header text-center">
-							<h2>
-								latest news
-							</h2>
-							<p>
-								Travel News from all over the world 
-							</p>
-						</div><!--/.gallery-header-->
-						<div class="blog-content">
-							<div class="row">
-
-								<div class="col-sm-4 col-md-4">
-									<div class="thumbnail">
-										<h2>trending news <span>15 november 2017</span></h2>
-										<div class="thumbnail-img">
-											<img src="assets/images/blog/b1.jpg" alt="blog-img">
-											<div class="thumbnail-img-overlay"></div><!--/.thumbnail-img-overlay-->
-										
-										</div><!--/.thumbnail-img-->
-									  
-										<div class="caption">
-											<div class="blog-txt">
-												<h3>
-													<a href="#">
-														Discover on beautiful weather, Fantastic foods and historical place in Prag
-													</a>
-												</h3>
-												<p>
-													Lorem ipsum dolor sit amet, contur adip elit, sed do mod incid ut labore et dolore magna aliqua. Ut enim ad minim veniam 
-												</p>
-												<a href="#">Read More</a>
-											</div><!--/.blog-txt-->
-										</div><!--/.caption-->
-									</div><!--/.thumbnail-->
-
-								</div><!--/.col-->
-
-								<div class="col-sm-4 col-md-4">
-									<div class="thumbnail">
-										<h2>trending news <span>15 november 2017</span></h2>
-										<div class="thumbnail-img">
-											<img src="assets/images/blog/b2.jpg" alt="blog-img">
-											<div class="thumbnail-img-overlay"></div><!--/.thumbnail-img-overlay-->
-										
-										</div><!--/.thumbnail-img-->
-										<div class="caption">
-											<div class="blog-txt">
-												<h3>
-													<a href="#">
-														Discover on beautiful weather, Fantastic foods and historical place in india
-													</a>
-												</h3>
-												<p>
-													Lorem ipsum dolor sit amet, contur adip elit, sed do mod incid ut labore et dolore magna aliqua. Ut enim ad minim veniam 
-												</p>
-												<a href="#">Read More</a>
-											</div><!--/.blog-txt-->
-										</div><!--/.caption-->
-									</div><!--/.thumbnail-->
-
-								</div><!--/.col-->
-
-								<div class="col-sm-4 col-md-4">
-									<div class="thumbnail">
-										<h2>trending news <span>15 november 2017</span></h2>
-										<div class="thumbnail-img">
-											<img src="assets/images/blog/b3.jpg" alt="blog-img">
-											<div class="thumbnail-img-overlay"></div><!--/.thumbnail-img-overlay-->
-										
-										</div><!--/.thumbnail-img-->
-										<div class="caption">
-											<div class="blog-txt">
-												<h3><a href="#">10 Most Natural place to Discover</a></h3>
-												<p>
-													Lorem ipsum dolor sit amet, contur adip elit, sed do mod incid ut labore et dolore magna aliqua. Ut enim ad minim veniam 
-												</p>
-												<a href="#">Read More</a>
-											</div><!--/.blog-txt-->
-										</div><!--/.caption-->
-									</div><!--/.thumbnail-->
-
-								</div><!--/.col-->
-
-							</div><!--/.row-->
-						</div><!--/.blog-content-->
-					</div><!--/.blog-details-->
-				</div><!--/.container-->
-
-		</section><!--/.blog-->
-		<!--blog end-->
-
+	
 		
 		<!--subscribe start-->
 		<section id="subs" class="subscribe">
 			<div class="container">
 				<div class="subscribe-title text-center">
 					<h2>
-						Join our Subscribers List to Get Regular Update
+						WELCOME TO RIYASEWANA, THE LARGEST AUTOMOBILE MARKETPLACE IN SRI LANKA
 					</h2>
 					<p>
 						Subscribe Now. We will send you Best offer for your Trip 
@@ -1357,86 +1194,48 @@
 		</section>
 		<!--subscribe end-->
 
-		<!-- footer-copyright start -->
-		<footer  class="footer-copyright">
-			<div class="container">
-				<div class="footer-content">
-					<div class="row">
+		
+    <!--  footer -->
+    <footr>
+      <div class="footer ">
+        <div class="container">
+          <div class="row">
+     
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 ">
+              <div class="row">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 ">
+                  <div class="address">
+                    <ul class="loca">
 
-						<div class="col-sm-3">
-							<div class="single-footer-item">
-								<div class="footer-logo">
-									<a href="index.html">
-										tour<span>Nest</span>
-									</a>
-									<p>
-										best travel agency
-									</p>
-								</div>
-							</div><!--/.single-footer-item-->
-						</div><!--/.col-->
+                            <a href="#"><img src="icon/email.png" alt="#" /></a>riyasewana@gmail.com </li>
+                          </ul>
+                  
 
-						<div class="col-sm-3">
-							<div class="single-footer-item">
-								<h2>link</h2>
-								<div class="single-footer-txt">
-									<p><a href="#">home</a></p>
-									<p><a href="#">destination</a></p>
-									<p><a href="#">spacial packages</a></p>
-									<p><a href="#">special offers</a></p>
-									<p><a href="#">blog</a></p>
-									<p><a href="#">contacts</a></p>
-								</div><!--/.single-footer-txt-->
-							</div><!--/.single-footer-item-->
+                        </div>
+                      </div>
+                       <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 ">
+                           <ul class="social_link">
+                            <li><a href="#"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+                          </ul>
+                       </div>
+                    </div>
+                  </div>
 
-						</div><!--/.col-->
+                </div>
 
-						<div class="col-sm-3">
-							<div class="single-footer-item">
-								<h2>popular destination</h2>
-								<div class="single-footer-txt">
-									<p><a href="#">china</a></p>
-									<p><a href="#">venezuela</a></p>
-									<p><a href="#">brazil</a></p>
-									<p><a href="#">australia</a></p>
-									<p><a href="#">london</a></p>
-								</div><!--/.single-footer-txt-->
-							</div><!--/.single-footer-item-->
-						</div><!--/.col-->
-
-						<div class="col-sm-3">
-							<div class="single-footer-item text-center">
-								<h2 class="text-left">contacts</h2>
-								<div class="single-footer-txt text-left">
-									<p>+1 (300) 1234 6543</p>
-									<p class="foot-email"><a href="#">info@tnest.com</a></p>
-									<p>North Warnner Park 336/A</p>
-									<p>Newyork, USA</p>
-								</div><!--/.single-footer-txt-->
-							</div><!--/.single-footer-item-->
-						</div><!--/.col-->
-
-					</div><!--/.row-->
-
-				</div><!--/.footer-content-->
-				<hr>
-				<div class="foot-icons ">
-					<ul class="footer-social-links list-inline list-unstyled">
-		                <li><a href="#" target="_blank" class="foot-icon-bg-1"><i class="fa fa-facebook"></i></a></li>
-		                <li><a href="#" target="_blank" class="foot-icon-bg-2"><i class="fa fa-twitter"></i></a></li>
-		                <li><a href="#" target="_blank" class="foot-icon-bg-3"><i class="fa fa-instagram"></i></a></li>
-		        	</ul>
-		        	<p>&copy; 2017 <a href="https://www.themesine.com">ThemeSINE</a>. All Right Reserved</p>
-
-		        </div><!--/.foot-icons-->
-				<div id="scroll-Top">
-					<i class="fa fa-angle-double-up return-to-top" id="scroll-top" data-toggle="tooltip" data-placement="top" title="" data-original-title="Back to Top" aria-hidden="true"></i>
-				</div><!--/.scroll-Top-->
-			</div><!-- /.container-->
-
-		</footer><!-- /.footer-copyright-->
-		<!-- footer-copyright end -->
-
+              </div>
+               <div class="container">
+              <div class="copyright">
+               
+                  <p>Copyright 2021 All Right Reserved By <a href="https://html.design/">Riyasewana</a></p>
+                </div>
+              </div>
+            </div>
+          </footr>
+          <!-- end footer -->
 
 
 
@@ -1478,20 +1277,6 @@
 		<script src="assets/js/custom.js"></script>
 
 
-
-
-
-
- <!-- Javascript files-->
-          <script src="js/jquery.min.js"></script>
-          <script src="js/popper.min.js"></script>
-          <script src="js/bootstrap.bundle.min.js"></script>
-          <script src="js/jquery-3.0.0.min.js"></script>
-          <script src="js/plugin.js"></script>
-          <!-- sidebar -->
-          <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
-          <script src="js/custom.js"></script>
-          <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
 	</body>
 
 </html>
